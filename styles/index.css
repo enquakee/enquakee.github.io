@@ -1,0 +1,25 @@
+@import "./normalize.css";
+@import "./header.css";
+@import "./font.css";
+@import "./variables.css";
+@import "./common.css";
+@import "./hero.css";
+@import "./courses.css";
+@import "./container-item.css";
+
+
+.mainWrapper {
+    --side-gap: 92px;
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+    ". header ."
+    ". heroMain ."
+    ". courses ."
+    ". heroSecond .";
+    grid-template-columns: var(--side-gap) 1fr var(--side-gap);
+    font-family: var(--f-reg);
+    color: var(--c-midnight);
+}
