@@ -42,13 +42,13 @@
 }
 
 .courses__containerItem--business {
-    background: url(/img/container-item-image1.jpg) no-repeat;
+    background: url(../img/container-item-image1.jpg) no-repeat;
 }
 
 .courses__containerItem--python {
-    background: url(/img/container-item-image2.jpg) no-repeat;
+    background: url(../img/container-item-image2.jpg) no-repeat;
 }
 
 .courses__containerItem--frontend {
-    background: url(/img/container-item-image3.jpg) no-repeat;
+    background: url(../img/container-item-image3.jpg) no-repeat;
 }
