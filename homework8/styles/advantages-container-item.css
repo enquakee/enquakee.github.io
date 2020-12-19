@@ -1,0 +1,28 @@
+.advantages__containerItem {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 210px;
+    align-items: center;
+    text-align: center;
+}
+
+.advantages__containerItemTitle {
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--c-midnight);
+    font-family: var(--f-bold);
+    margin-top: 32px;
+}
+
+.advantages__containerItemText {
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--c-midnight);
+    font-family: var(--f-light);
+    margin-top: 16px;
+}
+
+.advantagesImage {
+    width: 72px;
+}

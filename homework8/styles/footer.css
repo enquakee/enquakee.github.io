@@ -1,0 +1,24 @@
+.footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    min-height: 220px;
+    align-items: center;
+}
+
+.description {
+    width: 432px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: var(--f-light);
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 181px;
+}
+
+.contacts__item {
+    width: 37.45px;
+}

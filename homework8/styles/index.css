@@ -1,0 +1,31 @@
+@import "./normalize.css";
+@import "./header.css";
+@import "./font.css";
+@import "./variables.css";
+@import "./common.css";
+@import "./hero.css";
+@import "./courses.css";
+@import "./courses-container-item.css";
+@import "./advantages.css";
+@import "./advantages-container-item.css";
+@import "./request.css";
+@import "./footer.css";
+
+.mainWrapper {
+    --side-gap: 92px;
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+    ". header ."
+    ". heroMain ."
+    ". courses ."
+    ". heroSecond ."
+    ". advantages ."
+    "request request request"
+    ". footer .";
+    grid-template-columns: var(--side-gap) 1fr var(--side-gap);
+    font-family: var(--f-reg);
+    color: var(--c-midnight);
+}
