@@ -3,19 +3,19 @@
     align-items: center;
     padding: 0 120px;
     min-height: 708px;
-    background: url(/img/hero-main-image.jpg) center center no-repeat;
+    background: url(../img/hero-main-image.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .hero--main {
     grid-area: heroMain;
-    background-image: url(/img/hero-main-image.jpg);
+    background-image: url(../img/hero-main-image.jpg);
 }
 
 .hero--second {
     grid-area: heroSecond;
     justify-content: flex-end;
-    background-image: url(/img/hero-second-image.jpg);
+    background-image: url(../img/hero-second-image.jpg);
 }
 
 .hero__info {
